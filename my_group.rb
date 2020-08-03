@@ -8,6 +8,12 @@ my_group.push  person_1
 my_group.push  person_2
 my_group.push  person_3
 
-my_group.each do |name, gender, age|
-puts "#{name} is a #{age} years old #{gender}"
+# puts my_group[1][:name]
+
+my_group.each do |my_group|
+puts "#{my_group[:name].capitalize} is a #{my_group[:age]} years old #{my_group[:gender]}"
 end
+
+# my_group.each do |name, gender, age|
+# puts "#{my_group[:name]} is a #{my_group[:age]} years old #{my_group[:gender]}"
+# end
