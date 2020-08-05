@@ -9,7 +9,6 @@ my_group.push  person_2
 my_group.push  person_1
 my_group.push  person_4
 my_group.push  person_3
-my_group.reverse
 
 my_group.reverse.each do |person| 
 puts "#{person[:name].capitalize} is a #{person[:age]} years old #{person[:gender]}"
