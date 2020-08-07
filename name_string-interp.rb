@@ -9,11 +9,11 @@ surname = gets.chomp
 
 puts "Hello #{name} #{surname} \n" *10 
 
-# String interpolation 
+
 # name = "Ada"
 # puts "Hello, " + name + "!"
 
-# instead:
+# instead: String interpolation 
 # name = "Ada"
 # puts "Hello, #{name}!"
 
